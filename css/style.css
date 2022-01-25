@@ -1,0 +1,463 @@
+#header{
+    width: 100%;
+    padding: 40px 0px;
+    position: absolute;
+}
+
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-contact span{
+    font-size: 16px;
+  font-weight: 700px;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d2514;
+  margin-left: 3px;
+}
+.top-contact img{
+    vertical-align: middle;
+    margin-left: 110px
+}
+.main-manu ul li{
+ list-style: none;
+display: inline-block;
+font-size: 20px;
+font-family: 'Bebas Neue', cursive;
+font-weight: 400;
+text-transform: uppercase;
+color: #3d2514;
+margin-right: 44px;
+
+
+}
+.main-manu ul li a{
+    text-decoration: none;
+}
+menus{
+    text-align: right;
+}
+/* banner section css start */
+#banner{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../img/bg.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner-content{
+    display: flex;
+}
+.banner-left{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+.banner-right{
+    flex-basis: 50%;
+    
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+.banner-left p{
+    font-family: 'Alfa Slab One', cursive;
+  font-size: 26px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: -6px;
+}
+
+.banner-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+   font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px rgb(255,255,255/70%);
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.banner-left h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 56px;
+   font-weight: 700;
+    color: #3d2514;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px rgb(255,255,255/70%);
+    margin-top: 0px;
+}
+.burger{
+    width: 100%;
+    padding: 80px 0px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.burger-main{
+    display: flex;
+}
+.burger-item{
+    position: relative;
+    margin: 16px;
+}
+.text-overfly{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.text-overfly h4{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color:#fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.text-overfly h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    color:#fff;
+    font-weight: 400;
+    text-transform: uppercase;
+  margin-top: -38px;
+}
+.m-2{
+    margin-top: -30px;
+}
+/* Section burger tim css */
+#burger-tim{
+    width: 100%;
+    padding:40px 0px;
+}
+
+.Choose{
+  text-align: center;
+}
+.Choose span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: #f4a408;
+    padding: 3px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+.Choose h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 26px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: -6px;
+  }
+
+.Choose p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    
+  }
+
+/* title-burger section css */
+#title-burger{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.consectutor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.amet-now{
+    margin: 12px 21px 19px 17px;
+}
+.logo-mit{
+ max-width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+.megna{
+    margin-left: 96px;
+    margin-bottom: -9px;
+}
+.megna h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    font-weight: 400px;
+    margin-bottom: -11px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 7px;
+    text-transform: uppercase;
+  }
+
+.megna p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-left: 18px;
+    margin-bottom: 17px;
+}
+a{
+    text-decoration: none;
+}
+.onrder-btn{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: #eb0b0b;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px;
+    margin-left: 27px;
+    border: none;
+    margin-top: 4px;
+    
+}
+/* silder section css start */
+#silder-section{
+    width: 100%;
+    padding: 60px 0px;
+   
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.events{
+    display: flex;
+  
+    padding: 20px;
+}
+.facilisies{
+    flex-basis: 50%;
+}
+.silder-logo{
+    flex-basis: 50%;
+}
+
+.facilisies h6{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400px;
+    font-size: 20px;
+    margin-bottom: -18px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.facilisies h2{
+font-family: 'Alfa Slab One', cursive;
+font-size: 19px;
+font-weight: 700px;
+text-transform: uppercase;
+margin-left: 16px;
+}
+.facilisies p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  .img-flueg{
+     max-width: 450px;
+    height: auto;
+    
+  }
+.owl-nav{
+   display: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-left: -892px;
+    margin-top: 10px;
+  }
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #e9a219 !important;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+}
+/* form-section css */
+#form-section{
+    width: 100%;
+    padding: 150px 0px;
+    background-image: url(../img/burgar-8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.title-section{
+    margin-left: 501px;
+    margin-bottom: 44px;
+}
+.title-section h4{
+    font-family: 'Bebas Neue', cursive;
+font-size: 22px;
+font-weight: 600px;
+text-transform: uppercase;
+margin-left: 16px;
+color: #9F948F;
+}
+.title-section h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 22px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    margin-left: -20px;
+    color: #42200B;
+    margin-top: -23px;
+    margin-left: -40px;
+}
+/* form section */
+.forem-wrapper{
+    width: 50%;
+    margin:auto;
+}
+.forem-wrapper form{
+    text-align: center;
+    margin-top: 2rem;
+}
+.form-group{
+    margin-bottom: 18px;
+    display: flex;
+    margin: 13px;
+    justify-content: space-between;
+   
+}
+.form-control{
+  width: 40%;
+  padding: 10px;
+}
+.form-control-btn{
+ width: 241px;
+background: #bf2222 !important;
+color: #fff !important;
+border: 0 !important;
+font-size: 16px;
+border-radius: 4px;
+}
+.form-control::placeholder,.form-control{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: red;
+    border-radius: 4px;
+    border-color: #000;
+}
+.form-control:focus,.form-control:focus::placeholder{
+  outline-color: red;
+  color: red;
+}
+
+
+/* footer section start */
+#footer-section{
+    width: 100%;
+    padding:100px 0px;
+  
+}
+.main-footer{
+    display: flex;
+}
+.tim-footer{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1191px;
+    height: 312px;
+    margin-bottom: 90px;
+    display: inline-block;
+}
+.footer-left img{
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+.footer-left p{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600px;
+font-size: 16px;
+margin-left: 30px;
+color: #fff;
+line-height: 20px;
+}
+.footer-left{
+    flex-basis: 50%;
+}
+.footer-right{
+    flex-basis: 50%;
+    margin-left: 368px;
+}
+.icon span {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.icon i{
+    color: #fff;
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 20px;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.tempor p{
+ font-family: 'Montserrat', sans-serif;
+font-weight: 600px;
+font-size: 14px;
+margin-left: 145px;
+color: #fff;
+margin-top: 41px;
+}
+.section1{
+ color: #fff;
+margin-right: 48px;
+margin-top: 44px;
+    
+}
+.section1 a{
+    font-size: 18px;
+    margin-right: 17px;
+    color: #fff;
+    border-radius: 4px;
+
+}
+.m-3{
+    margin-top: -50px;
+}
